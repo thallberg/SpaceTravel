@@ -1,0 +1,44 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h4, p, a {
+  color: white;
+}
+
+body {
+  margin: 0;
+  background: #000;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+code {
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.btn {
+  padding: 12px 32px;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  background: transparent;
+  color: #fff;
+  border: 1px solid #ffff;
+  cursor: pointer;
+}
+
+.btn-light {
+  background: rgba(255, 255, 255, .2);
+}
+
+.btn:hover {
+  background: rgba(255, 255, 255, .2);
+}
